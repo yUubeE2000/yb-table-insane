@@ -6,6 +6,13 @@
   "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "system",
+  "course":[
+    {"name":"yb段位認定 発狂初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["16a5e6b5b3de5efd9930fb1051b4968c","03723666258481a3ee47cee9daae7b21","6ae04778cd2436bd217ce43feadb792b","27f5204ebce1673e61fdb75494ad51e5"]},
+    {"name":"yb段位認定 発狂二段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["1941601924d0e1f300188abf5f211b19","d08e1a937c5080104daa29c79c407075","3163cb3c5569646dfbe058a762206ae8","6d187a9a074d281d8353be192b1c4a7c"]},
+    {"name":"yb段位認定 発狂三段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["a09411c8a753c0af19386252b06885f3","51c469327a11dfb604d35a0d3aad696a","49621b1c35f5a086fe2377c5e4a6af0e","d2e73bab4a9e3f474f0336c3ee0c7d2a"]},
+    {"name":"yb段位認定 発狂四段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["b7daf97b94a5e415dbf9c6922b3368b6","751f094b27163161d41bd957a813e038","b3afd6a828814df5d68daaae276665b1","6372bc99656c1a7ab101d38648eb1c67"]},
+    {"name":"yb段位認定 発狂五段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["9199fa4f06ffb35d9072bc62db4ecb40","1998ffcc9cf8427460139816277b46da","fa9f75006aa50c4aae5d9d2edf3ee0b6","b183b1b5f8d7fa433b931041e8cdc3f9"]}
+  ]
   "columns": [
     { "header": "Lv", "type": "level" },
     { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
