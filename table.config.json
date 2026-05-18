@@ -1,8 +1,8 @@
 {
-  "name": "My BMS Table",
-  "symbol": "⚪︎",
-  "dataUrl": "https://your-gas-url/exec",
-  "siteDescription": "ここにサイトの説明を記載してください",
+  "name": "yb発狂難易度表",
+  "symbol": "★",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/1-7Is4mtUfTFqPPYrrbO6QgPcJ-0TyDTbEjcu2Fnn38U/edit?gid=0#gid=0",
+  "siteDescription": "※作成中",
   "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "system",
@@ -10,6 +10,6 @@
     { "header": "Lv", "type": "level" },
     { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
     { "header": "Artist", "type": "text", "property": "artist" },
-    { "header": "Chart", "type": "badge", "label": "DL", "url": "{{url_diff}}", "align": "center" }
+    { "header": "Comment", "type": "text", "property": "comment", "width": "20%", "ellipsis": true }
   ]
 }
