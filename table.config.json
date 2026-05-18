@@ -10,6 +10,6 @@
     { "header": "Lv", "type": "level" },
     { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
     { "header": "Artist", "type": "text", "property": "artist" },
-    { "header": "Comment", "type": "text", "property": "comment", "width": "20%", "ellipsis": true }
+    { "header": "Comment", "type": "text", "property": "comment", "width": "5%", "ellipsis": true }
   ]
 }
