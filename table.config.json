@@ -12,7 +12,7 @@
     {"name":"yb段位認定 発狂三段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["a09411c8a753c0af19386252b06885f3","51c469327a11dfb604d35a0d3aad696a","49621b1c35f5a086fe2377c5e4a6af0e","d2e73bab4a9e3f474f0336c3ee0c7d2a"]},
     {"name":"yb段位認定 発狂四段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["b7daf97b94a5e415dbf9c6922b3368b6","751f094b27163161d41bd957a813e038","b3afd6a828814df5d68daaae276665b1","6372bc99656c1a7ab101d38648eb1c67"]},
     {"name":"yb段位認定 発狂五段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["9199fa4f06ffb35d9072bc62db4ecb40","1998ffcc9cf8427460139816277b46da","fa9f75006aa50c4aae5d9d2edf3ee0b6","b183b1b5f8d7fa433b931041e8cdc3f9"]}
-  ]
+  ],
   "columns": [
     { "header": "Lv", "type": "level" },
     { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
