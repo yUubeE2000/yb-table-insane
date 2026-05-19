@@ -8,9 +8,9 @@
   "darkMode": "system",
   "columns": [
     { "header": "Lv", "type": "level" },
-    { "header": "Title", "type": "link", "property": "title", "url": "{{url}}" },
-    { "header": "Artist", "type": "text", "property": "artist" },
-    { "header": "Comment", "type": "text", "property": "comment", "width": "5%", "ellipsis": true }
+    { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%" },
+    { "header": "Artist", "type": "link", "property": "artist", "url": "{{url}}", "width": "25%" },
+    { "header": "Comment", "type": "text", "property": "comment", "width": "20%", "ellipsis": true }
   ],
   "course": [
     {"name":"yb段位認定 発狂初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["16a5e6b5b3de5efd9930fb1051b4968c","03723666258481a3ee47cee9daae7b21","6ae04778cd2436bd217ce43feadb792b","27f5204ebce1673e61fdb75494ad51e5"]},
