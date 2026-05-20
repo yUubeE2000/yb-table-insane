@@ -6,8 +6,8 @@
   "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "system",
-  "tableStyle.stripe": "Tlue",
-  "tableStyle.hover": "Tlue",
+  "tableStyle.stripe": "True",
+  "tableStyle.hover": "True",
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
     { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
