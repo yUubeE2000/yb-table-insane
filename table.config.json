@@ -3,11 +3,9 @@
   "symbol": "★",
   "dataUrl": "https://script.google.com/macros/s/AKfycbwwNoBAXTnSKvf1frBuRISI_DkUuMc9LduRzsQERvWq7OIUGK_fXjeLUpSWVV0V1_qGXg/exec",
   "siteDescription": "※作成中",
-  "lightTheme": "light",
   "darkTheme": "dark",
   "darkMode": "dark",
   "tableStyle.stripe": "True",
-  "tableStyle.hover": "True",
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
     { "header": "Title", "type": "link", "property": "title", "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5={{md5}}", "width": "40%", "align": "center" },
