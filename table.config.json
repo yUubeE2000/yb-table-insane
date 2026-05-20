@@ -5,7 +5,7 @@
   "siteDescription": "※作成中",
   "lightTheme": "light",
   "darkTheme": "dark",
-  "darkMode": "system",
+  "darkMode": "dark",
   "tableStyle.stripe": "True",
   "tableStyle.hover": "True",
   "columns": [
