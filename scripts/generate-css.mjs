@@ -46,6 +46,7 @@ export function buildMinWidth(columns) {
 export function buildCss(config) {
   const lightTheme = config.lightTheme || "light";
   const darkTheme = config.darkTheme || "dark";
+  const nightTheme = config.nightTheme || "night";
   const columns = config.columns || [];
   const tableStyle = config.tableStyle || {};
   const maxWidth = tableStyle.maxWidth || 1536;
@@ -57,7 +58,7 @@ export function buildCss(config) {
   return `@import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @plugin "daisyui" {
-  themes: ${lightTheme} --default, ${darkTheme} --prefersdark;
+  themes: ${lightTheme} --default, ${darkTheme} --prefersdark, ${nightTheme} --prefersnight;
 }
 
 .table-container {
@@ -82,5 +83,5 @@ const css = buildCss(config);
 
 writeFileSync("app/globals.css", css);
 console.log(
-  `app/globals.css を生成しました (themes: ${config.lightTheme || "light"}, ${config.darkTheme || "dark"}, grid: ${buildGridColumns(config.columns || [])}, min-width: ${buildMinWidth(config.columns || [])}px, max-width: ${config.tableStyle?.maxWidth || 1536}px)`
+  `app/globals.css を生成しました (themes: ${config.lightTheme || "light"}, ${config.darkTheme || "dark"}, ${config.nightTheme || "night"}, grid: ${buildGridColumns(config.columns || [])}, min-width: ${buildMinWidth(config.columns || [])}px, max-width: ${config.tableStyle?.maxWidth || 1536}px)`
 );
