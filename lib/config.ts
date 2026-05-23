@@ -8,7 +8,7 @@ export interface CourseEntry {
 }
 
 export type Align = "left" | "center" | "right";
-export type ThemeMode = "light" | "dark" | "system";
+export type ThemeMode = "light" | "dark" | "night" | "system";
 
 export interface TableStyle {
   maxWidth: number;
@@ -66,6 +66,7 @@ export interface TableConfig {
   siteDescription: string;
   lightTheme: string;
   darkTheme: string;
+  nightTheme: string;
   darkMode: ThemeMode;
   levelOrder: string[];
   course: CourseEntry[];
@@ -83,6 +84,7 @@ const defaults: Omit<TableConfig, "name" | "symbol" | "dataUrl" | "tableStyle"> 
   siteDescription: "",
   lightTheme: "light",
   darkTheme: "dark",
+  nightTheme: "night",
   darkMode: "system",
   levelOrder: [],
   course: [],
