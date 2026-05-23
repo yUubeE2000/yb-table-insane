@@ -3,8 +3,8 @@
   "symbol": "★",
   "dataUrl": "https://script.google.com/macros/s/AKfycbwwNoBAXTnSKvf1frBuRISI_DkUuMc9LduRzsQERvWq7OIUGK_fXjeLUpSWVV0V1_qGXg/exec",
   "siteDescription": "※作成中",
-  "darkTheme": "night",
-  "darkMode": "night",
+  "nightTheme": "night",
+  "nightMode": "night",
   "tableStyle.stripe": "True",
   "columns": [
     { "header": "Lv", "type": "level", "align": "center" },
