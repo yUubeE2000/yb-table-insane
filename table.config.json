@@ -15,10 +15,10 @@
     { "header": "Comment", "type": "text", "property": "comment", "width": "6%", "ellipsis": true, "align": "center" }
   ],
   "course": [
-    {"name":"yb段位認定 発狂初段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["9b543b805e3f647be2ecc219464ea459373e136b10500b980eaaa6fa50653a9b","84346408123d0f7cc7758ca05476d4f828113dd39b27d3919ff9af1c013ee1f0","b1a6bfde972ff9f318a22fd7d5a2027db233328f207f738033827184996d5e7f","fb63cc81a507665f960820b66c3604c61f6bfa73eefe46bf624bf1308cc7fe6d"]},
-    {"name":"yb段位認定 発狂二段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["9170cf7ae1ec05407acbf1c6b153ad463e17c681fc2a7a1e672dfc79ff54fd04","45595b41a8dacdca79c7441d8335356f0e9f99fc66e5356858e1895cd465309d","878b9120dc1046fa7d399a80aa04024f0ab1cb397da17ba7fd835cebb30936cb","bf1ef1eba4892d8fcaa1a437288f7d98f2ad1e7027e1e33df16a9a4f1d2515dd"]},
-    {"name":"yb段位認定 発狂三段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["e362bc80ab09c4e95c409eda004ca3433db077cf51eac1c6501766b4ced7cb67","49bd7e792b3cc82e751154a73886c5e674b6f5ed45ec62502d04c3a836d96811","fc537998f178e11ebcc38bf1e7fbb97cf8a5090a057352c6a95547df3480155f","72fc553f9e1924bea418e6034691c6c6a6871f323c708e69a81f28fe5c5ad53d"]},
-    {"name":"yb段位認定 発狂四段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["3e379c3e40df91120f1e14cbf25774448e848c6b5f6812be69ba988aad1a4eeb","e7482165b87c29477653323981d59929fe2fd9814f1c3570acaf50d3f854902e","b0c358db3c397b227c2acf0d17c6ca11bfcdb0d506a9d7e623aa45db64cddc87","718267b1d09f69583527738f0bd14f9a85ed7715b216b9e8615b0d613194465f"]},
-    {"name":"yb段位認定 発狂五段","constraint":["grade_mirror","gauge_lr2",""],"sha256": ["2cee7e644d4b935daa9f39a620e36817297ea85637b1e0c4b718852a13a66869","eacbf3966c94eeeab49f97b81c3a2d1f281209f998ac4df97f011d35c34b0322","0fadcde66dcac2eb5be93a1c39324987b38dc4ae75c842970d8db1f94e3ff1e9","93b29af5539532199d02bc5d3d1dafa479cbdb28ed61353f7f053e9c67e2c42d"]}
+    {"name":"yb段位認定 発狂初段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["16a5e6b5b3de5efd9930fb1051b4968c","03723666258481a3ee47cee9daae7b21","6ae04778cd2436bd217ce43feadb792b","27f5204ebce1673e61fdb75494ad51e5"]},
+    {"name":"yb段位認定 発狂二段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["1941601924d0e1f300188abf5f211b19","d08e1a937c5080104daa29c79c407075","3163cb3c5569646dfbe058a762206ae8","6d187a9a074d281d8353be192b1c4a7c"]},
+    {"name":"yb段位認定 発狂三段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["a09411c8a753c0af19386252b06885f3","51c469327a11dfb604d35a0d3aad696a","49621b1c35f5a086fe2377c5e4a6af0e","d2e73bab4a9e3f474f0336c3ee0c7d2a"]},
+    {"name":"yb段位認定 発狂四段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["b7daf97b94a5e415dbf9c6922b3368b6","751f094b27163161d41bd957a813e038","b3afd6a828814df5d68daaae276665b1","6372bc99656c1a7ab101d38648eb1c67"]},
+    {"name":"yb段位認定 発狂五段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["9199fa4f06ffb35d9072bc62db4ecb40","1998ffcc9cf8427460139816277b46da","fa9f75006aa50c4aae5d9d2edf3ee0b6","b183b1b5f8d7fa433b931041e8cdc3f9"]}
   ]
 }
